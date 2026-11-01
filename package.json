@@ -1,0 +1,23 @@
+{
+  "name": "smart-university-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart University - Digital Transformation Platform",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server run start"
+  },
+  "keywords": [
+    "smart-university",
+    "digital-transformation",
+    "react",
+    "typescript",
+    "express",
+    "supabase"
+  ],
+  "author": "Smart University Ecosystem",
+  "license": "MIT"
+}
